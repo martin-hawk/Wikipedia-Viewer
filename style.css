@@ -1,0 +1,99 @@
+body {
+  /*background-color: LightGrey;*/
+  background-image: url("https://dl.dropboxusercontent.com/u/93114194/5.%20Wikipedia%20Viewer/img/background.jpg");
+}
+
+#random-img {
+  width: 450px;
+}
+
+.page-wrap {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.random {
+  text-align: center;
+  margin-top: 33%;
+}
+
+.search-box {
+  text-align: center;
+  font-size: 2.5em;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+#search input {
+  outline: none;
+}
+
+#search input[type=search] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+  font-family: inherit;
+  font-size: 100%;
+}
+
+#search input::-webkit-search-decoration,
+#search input::-webkit-search-cancel-button {
+  display: none;
+}
+
+#search input[type=search] {
+  background: #ededed url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 25px center;
+  border: solid 1px red;
+  padding: 9px 10px 9px 32px;
+  width: 55px;
+  -webkit-border-radius: 10em;
+  -moz-border-radius: 10em;
+  border-radius: 10em;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
+}
+
+#search input[type=search] {
+  width: 50px;
+  padding-left: 10px;
+  color: transparent;
+  cursor: pointer;
+}
+
+#search input[type=search]:hover {
+  background-color: #aaa;
+}
+
+#search input[type=search]:focus,
+#search input[type=search]:valid {
+  width: 500px;
+  padding-left: 50px;
+  color: #000;
+  background-color: #fff;
+  cursor: auto;
+}
+
+#search input:-moz-placeholder {
+  color: transparent;
+}
+
+#search input::-webkit-input-placeholder {
+  color: transparent;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.wiki-card {
+  background-color: lightgrey;
+  border: 1px solid #FF7F50;
+  padding: 5px;
+  margin: 5px;
+}
